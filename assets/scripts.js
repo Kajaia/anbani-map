@@ -17,7 +17,7 @@ function initMap() {
     fullscreenControl: true,
     zoomControl: true,
     mapTypeControl: true,
-    gestureHandling: isMobile ? "cooperative" : "auto",
+    gestureHandling: "greedy",
   });
 
   let currentInfoWindow = null;
