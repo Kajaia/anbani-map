@@ -2,6 +2,8 @@
 
 const isMobile = window.matchMedia("(max-width: 767px)").matches;
 
+window.addEventListener("load", initMap);
+
 function initMap() {
   const batumi = {
     lat: 41.69736371539678,
