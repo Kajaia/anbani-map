@@ -1,11 +1,22 @@
+@font-face {
+  font-family: "Primary";
+  src: url("./primary.woff");
+}
+
+@font-face {
+  font-family: "Secondary";
+  src: url("./secondary.woff");
+}
+
 body {
   padding: 0;
   margin: 0 auto;
 }
 
 h3 {
-  font-size: 20px;
+  font-size: 40px;
   margin-top: 0;
+  font-family: "Primary", sans-serif;
 }
 
 .map {
@@ -19,13 +30,19 @@ h3 {
 
 .subtitle {
   font-size: 15px;
+  font-family: "Secondary", sans-serif;
 }
 
 .link {
   text-decoration: none;
   padding: 10px 25px;
   border-radius: 6px;
-  background-color: #000;
-  color: #eee;
-  width: 100%;
+  background-color: #fdb913;
+  color: #000;
+  font-family: "Secondary", sans-serif;
+  transition: 0.5s;
+}
+
+.link:hover {
+  background-color: #9ed6ad;
 }

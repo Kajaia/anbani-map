@@ -36,13 +36,17 @@ function initMap() {
     });
 
     const contentString = `
-    <div class="center">
+    <div class="center" style="height: ${link ? "250px" : "200px"}">
       <img width="100%" height="130px" src="${image}" alt="${title}" style="border-radius: 6px">
       <h3>
         ${title}
         <span class="subtitle">${subtitle}</span>
       </h3>
-      ${link ? `<a class="link" href="${link}" target="_blank">ნახვა</a>` : ""}
+      ${
+        link
+          ? `<a class="link" href="${link}" target="_blank">დეტალურად<sup><img height="10" src="https://s1.infoajara.com/images/anbanitour/external-link.svg" alt="external-link" style="margin-left: 5px" /></sup></a>`
+          : ""
+      }
     </div>
   `;
 
