@@ -36,7 +36,7 @@ function initMap() {
     });
 
     const contentString = `
-    <div class="center" style="height: ${link ? "250px" : "200px"}">
+    <div class="center" style="height: ${link ? "220px" : "175px"}">
       <img width="100%" height="130px" src="${image}" alt="${title}" style="border-radius: 6px">
       <h3>
         ${title}

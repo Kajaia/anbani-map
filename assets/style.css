@@ -3,19 +3,15 @@
   src: url("./primary.woff");
 }
 
-@font-face {
-  font-family: "Secondary";
-  src: url("./secondary.woff");
-}
-
 body {
   padding: 0;
   margin: 0 auto;
 }
 
 h3 {
-  font-size: 40px;
+  font-size: 30px;
   margin-top: 0;
+  margin-bottom: 16px;
   font-family: "Primary", sans-serif;
 }
 
@@ -30,7 +26,6 @@ h3 {
 
 .subtitle {
   font-size: 15px;
-  font-family: "Secondary", sans-serif;
 }
 
 .link {
@@ -39,7 +34,7 @@ h3 {
   border-radius: 6px;
   background-color: #fdb913;
   color: #000;
-  font-family: "Secondary", sans-serif;
+  font-family: "Primary", sans-serif;
   transition: 0.5s;
 }
 
