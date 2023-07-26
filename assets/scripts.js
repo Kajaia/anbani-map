@@ -27,7 +27,10 @@ function initMap() {
       position: { lat, lng },
       map: map,
       icon: {
-        url: `https://anbanitour.ge/assets/img/letters/${letter}_pin-normal.svg`,
+        url:
+          letter === "T" || letter === "W"
+            ? `https://s1.infoajara.com/images/anbanitour/${letter}_pin-normal.svg`
+            : `https://anbanitour.ge/assets/img/letters/${letter}_pin-normal.svg`,
         scaledSize: new google.maps.Size(36, 36),
       },
     });
@@ -150,7 +153,7 @@ function initMap() {
       title: "თ",
       subtitle: "აგო",
       text: "თ",
-      letter: "t",
+      letter: "T",
       link: "https://visitajara.com/routes/8",
       image:
         "https://anbanitour.ge/_cdn/2210/01/09/ac01fca3423b4267ac2b327b8bc88b21/t.png",
@@ -246,7 +249,7 @@ function initMap() {
       title: "ჟ",
       subtitle: "ანგბადი",
       text: "ჟ",
-      letter: "j",
+      letter: "zh",
       link: null,
       image:
         "https://anbanitour.ge/_cdn/2210/01/23/c2ea5b1dd8d34ec69ff0c440b1c86efe/j.png",
@@ -294,7 +297,7 @@ function initMap() {
       title: "ღ",
       subtitle: "ამის ბათუმი",
       text: "ღ",
-      letter: "g",
+      letter: "gh",
       link: null,
       image:
         "https://anbanitour.ge/_cdn/2210/01/37/e75b582d999c4f6993d20c315478bcf3/g.png",
@@ -318,7 +321,7 @@ function initMap() {
       title: "ფ",
       subtitle: "რინველებზე დაკვირვება",
       text: "ფ",
-      letter: "p",
+      letter: "f",
       link: "https://visitajara.com/routes/15",
       image:
         "https://anbanitour.ge/_cdn/2210/01/33/834d9fd888654eaab059c081b6674a81/p.png",
@@ -342,7 +345,7 @@ function initMap() {
       title: "ყ",
       subtitle: "ავა ბათუმში",
       text: "ყ",
-      letter: "k",
+      letter: "y",
       link: null,
       image:
         "https://anbanitour.ge/_cdn/2210/01/39/853f758d95f44a029f2e9965f9c1e26f/k.png",
@@ -366,7 +369,7 @@ function initMap() {
       title: "ც",
       subtitle: "იხისძირი",
       text: "ც",
-      letter: "ts",
+      letter: "c",
       link: "https://tinyurl.com/mvw2xh4j",
       image:
         "https://anbanitour.ge/_cdn/2210/01/47/e812a53a707b42838dd451fe52f9fbe4/ts.png",
@@ -414,7 +417,7 @@ function initMap() {
       title: "ჭ",
       subtitle: "ვანა",
       text: "ჭ",
-      letter: "ch",
+      letter: "W",
       link: "https://tinyurl.com/477fhd4t",
       image:
         "https://anbanitour.ge/_cdn/2210/01/53/53dd826e3a6f4d96b679289b0bed6244/ch.png",
