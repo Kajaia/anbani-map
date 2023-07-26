@@ -13,7 +13,11 @@ function initMap() {
   const map = new google.maps.Map(document.querySelector(".map"), {
     zoom: isMobile ? 9 : 10,
     center: batumi,
-    streetViewControl: false,
+    streetViewControl: true,
+    fullscreenControl: true,
+    zoomControl: true,
+    mapTypeControl: true,
+    gestureHandling: isMobile ? "cooperative" : "auto",
   });
 
   let currentInfoWindow = null;
