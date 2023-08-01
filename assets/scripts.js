@@ -74,7 +74,7 @@ function initMap() {
       subtitle: "ნბანის კოშკი",
       text: "ა",
       letter: "a",
-      link: null,
+      link: "https://visitajara.com/entertainments/160",
       image:
         "https://anbanitour.ge/_cdn/2210/00/95/f518e60f7c71464db6c1758040537ee2/a.png",
     },
@@ -122,7 +122,7 @@ function initMap() {
       subtitle: "ვროპის მოედანი",
       text: "ე",
       letter: "e",
-      link: null,
+      link: "https://visitajara.com/sights/127",
       image:
         "https://anbanitour.ge/_cdn/2210/01/03/ee71cddbf94144138c0928f7f73b1cee/e.png",
     },
@@ -170,7 +170,7 @@ function initMap() {
       subtitle: "ახნი",
       text: "ი",
       letter: "i",
-      link: null,
+      link: "https://infoajara.com/u/7061490",
       image:
         "https://anbanitour.ge/_cdn/2210/01/11/eb8e29ab62974ddab494850138fc0aec/i.png",
     },
@@ -362,7 +362,7 @@ function initMap() {
       subtitle: "უქურა",
       text: "შ",
       letter: "sh",
-      link: null,
+      link: "https://visitajara.com/sights/141",
       image:
         "https://anbanitour.ge/_cdn/2210/01/45/107b09e0de414d2aa236975890fd1b5e/sh.png",
     },
