@@ -194,7 +194,7 @@ function initMap() {
       subtitle: "აზური მუზეუმი",
       text: "ლ",
       letter: "l",
-      link: null,
+      link: "https://visitajara.com/sights/75",
       image:
         "https://anbanitour.ge/_cdn/2210/01/63/68e7ce357ddb43dca6b9daa87066e759/artboard-7.png",
     },
