@@ -134,7 +134,7 @@ function initMap() {
       subtitle: "ელობილიკი",
       text: "ვ",
       letter: "v",
-      link: null,
+      link: "https://gobatumi.com/ka/catalog/velo-biliki",
       image:
         "https://anbanitour.ge/_cdn/2210/01/05/640cee69e42847818c52b6ebe5c05d46/v.png",
     },
@@ -146,7 +146,7 @@ function initMap() {
       subtitle: "ღვა",
       text: "ზ",
       letter: "z",
-      link: null,
+      link: "https://gobatumi.com/ka/seaside-adjara",
       image:
         "https://anbanitour.ge/_cdn/2210/01/07/d58f14c03c8840a6b1d26f4df8522f0f/z.png",
     },
@@ -266,7 +266,7 @@ function initMap() {
       subtitle: "ვაფეხა",
       text: "რ",
       letter: "r",
-      link: null,
+      link: "https://gobatumi.com/ka/catalog/rvafekha",
       image:
         "https://anbanitour.ge/_cdn/2210/01/25/249393ab502c471bbb49d9af4bb60317/r.png",
     },
@@ -302,7 +302,7 @@ function initMap() {
       subtitle: "ამის ბათუმი",
       text: "ღ",
       letter: "gh",
-      link: null,
+      link: "https://gobatumi.com/ka/catalog/ghamis-batumi",
       image:
         "https://anbanitour.ge/_cdn/2210/01/37/e75b582d999c4f6993d20c315478bcf3/g.png",
     },
@@ -386,7 +386,7 @@ function initMap() {
       subtitle: "ველი ბათუმი",
       text: "ძ",
       letter: "dz",
-      link: null,
+      link: "https://gobatumi.com/ka/catalog/152-dzveli-batumi",
       image:
         "https://anbanitour.ge/_cdn/2210/01/49/95a498823b2140e6859fa4d73785ad69/dz.png",
     },
